@@ -87,7 +87,10 @@ int main()
 
           divs = div2/div1;
           std::cout << divs << "this is division answer" << std::endl;
-
+  if(div2==0){ 
+            std::cout<<"the second integer is zero divided by zero"<<std::endl;
+         }
+         
          
     
           break;
@@ -104,10 +107,7 @@ int main()
           mod = mod2%mod1;
           std::cout << mod << "this is modulus answer" << std::endl;
 
-         if(mod1==0){ 
-            std::cout<<"the second integer is zero divided by zero"<<std::endl;
-         }
-         
+        
           break;
 
   }
