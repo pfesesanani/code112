@@ -77,7 +77,7 @@ int main()
           std::cin >> mut2;
 
           mut = mut2*mut1;
-          std::cout << sum << "this is sum" << std::endl;
+          std::cout << sum << "this is multi answer" << std::endl;
 
          
          
@@ -94,8 +94,11 @@ int main()
           std::cin >> div2;
 
           divs = div2/div1;
-          std::cout << sum << "this is sum" << std::endl;
-
+          std::cout << divs << "this is sum" << std::endl;
+if(div2==0){ 
+            std::cout<<"the second integer is zero divided by zero"<<std::endl;
+         }
+         
          
     
           break;
@@ -110,7 +113,7 @@ int main()
           std::cin >> mod2;
 
           mod = mod2%mod1;
-          std::cout << sum << "this is sum" << std::endl;
+          std::cout << mod<< "this is modulus answer" << std::endl;
 
          
          
